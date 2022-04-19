@@ -6,15 +6,89 @@ let poi = [
     }, {
         "name": "South Pasadena Hub",
         "type": "hub",
-        "coord": [34.115724, -118.156409]
+        "coord": [34.115724, -118.156409],
+        "stage": [
+            {
+                "time": "10:00am - 10:45am",
+                "event": "Jean Serene (rock)"
+            }, {
+                "time": "11:15am - 12:00pm",
+                "event": "Grievous Angels (psych, reggae-soul, melodia)"
+            }, {
+                "time": "12:30pm - 1:15pm",
+                "event": "ADY & Coosylove (Latin, R&B, hip-hop, electronic)"
+            }, {
+                "time": "1:45pm - 3:45pm",
+                "event": "Ann Louis Christensen (kid-friendly tunes)"
+            }
+        ],
+        "activities": [
+            "GoSGV e-bike demo zone",
+            "Inflatable obstacle courses",
+            "Inflatable toddler obstacle course",
+            "Jacob's ladder inflatable course",
+            "Professional chalk art",
+            "Public chalk art zone",
+            "Shoot 4 connect 4"
+        ]
     }, {
         "name": "Alhambra Hub",
         "type": "hub",
-        "coord": [34.094812, -118.126905]
+        "coord": [34.094812, -118.126905],
+        "stage": [
+            {
+                "time": "8:30am - 9:00am",
+                "event": "Opening Ceremony with Gabe the Sasquatch"
+            }, {
+                "time": "9:00am - 9:30am",
+                "event": "East Wind Foundation Lion Dance"
+            }, {
+                "time": "9:45am - 10:30am",
+                "event": "Snake the Deck (acoustic ska)"
+            }, {
+                "time": "11:00am - 11:45am",
+                "event": "Nick Eng (jangly pop-rock)"
+            }, {
+                "time": "2:00pm - 4:00pm",
+                "event": "Gypsy Dreams (Fleetwood Mac tribute)"
+            }
+        ],
+        "activities": [
+            "Alhambra Eco Fair",
+            "Alhambra Farmers Market",
+            "Arts in Motion arts and crafts",
+            "Giant Badminton",
+            "Giganto games",
+            "GoSGV e-bike demo zone",
+            "Professional chalk art",
+        ]
     }, {
         "name": "San Gabriel Hub",
         "type": "hub",
-        "coord": [34.096040, -118.107771]
+        "coord": [34.096040, -118.107771],
+        "stage": [
+            {
+                "time": "9:00am - 9:45am",
+                "event": "San Gabriel High School Marching Band"
+            }, {
+                "time": "10:45am - 11:30am",
+                "event": "Dream Phases (psychedelic rock)"
+            }, {
+                "time": "12:00pm - 12:45pm",
+                "event": "Pizza Stains (bilingual bass drums duo)"
+            }, {
+                "time": "2:00pm - 4:00pm",
+                "event": "Cold Duck (classic hits)"
+            }
+        ],
+        "activities": [
+            "Carnival games",
+            "Corn hole",
+            "GoSGV e-bike demo zone",
+            "Inflatable rock climb slide",
+            "Professional chalk art",
+            "Public chalk art zone"
+        ]
     }
 ];
 

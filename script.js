@@ -15,4 +15,4 @@ poi.forEach((number, index, array) => {
     L.marker(array[index].coord).addTo(map);
 });
 
-let routePolyline = L.polyline(route, {color: 'red'}).addTo(map);
+let routePolyline = L.polyline(route, {color: 'yellow', weight: 5, opacity: 0.75}).addTo(map);
