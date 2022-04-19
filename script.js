@@ -12,5 +12,7 @@ var CartoDB_Positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/
 }).addTo(map);
 
 poi.forEach((number, index, array) => {
-    L.marker([array[index].lat, array[index].lng]).addTo(map);
+    L.marker(array[index].coord).addTo(map);
 });
+
+let routePolyline = L.polyline(route, {color: 'red'}).addTo(map);
