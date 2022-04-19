@@ -10,3 +10,7 @@ var CartoDB_Positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/
 	subdomains: 'abcd',
 	maxZoom: 20
 }).addTo(map);
+
+poi.forEach((number, index, array) => {
+    var marker = L.marker(array[index].lat, array[index].lng).addTo(map);
+});
